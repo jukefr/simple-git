@@ -3,6 +3,6 @@
   "types": "index",
   "version": "1.53.6",
   "scripts": {
-  	"postinstall": "npx make-dir-cli node-modules/simple-git-types && ln -sf node-modules/simple-git-types node-modules/@types/simple-git"
+  	"postinstall": "mkdir node-modules/simple-git-types && ln -sf node-modules/simple-git-types node-modules/@types/simple-git"
   }
 }
