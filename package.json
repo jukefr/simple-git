@@ -1,8 +1,8 @@
 {
   "name": "simple-git-types",
   "types": "index",
-  "version": "1.53.8",
+  "version": "1.53.9",
   "scripts": {
-  	"postinstall": "npx make-dir-cli node-modules/simple-git-types && npx make-dir-cli node-modules/@types/simple-git && ln -sf node-modules/simple-git-types node-modules/@types/simple-git"
+  	"postinstall": "npx symlink-dir . ../@types/simple-git"
   }
 }
