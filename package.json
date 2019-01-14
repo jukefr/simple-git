@@ -1,7 +1,7 @@
 {
   "name": "simple-git-types",
   "types": "index",
-  "version": "1.53.9",
+  "version": "1.53.10",
   "scripts": {
   	"postinstall": "npx symlink-dir . ../@types/simple-git"
   }
