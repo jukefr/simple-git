@@ -1,5 +1,6 @@
 {
   "name": "simple-git-types",
   "types": "index",
-  "version": "1.53.0"
+  "version": "1.53.1",
+  "postinstall": "npx move-cli node-modules/simple-git-types node-modules/@types/simple-git"
 }
